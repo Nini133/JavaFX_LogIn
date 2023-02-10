@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AfterLogin">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #301934;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="34.0" layoutX="233.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/87390.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="logout" layoutX="220.0" layoutY="302.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="44.0" prefWidth="134.0" style="-fx-background-color: #000000;" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Label layoutX="157.0" layoutY="56.0" prefHeight="71.0" prefWidth="308.0" text="WANNA SAVE WATER?" textFill="#f7f7f7">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="281.0" layoutY="185.0" prefHeight="30.0" prefWidth="114.0" text="Ninsssi" textFill="#10000d">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

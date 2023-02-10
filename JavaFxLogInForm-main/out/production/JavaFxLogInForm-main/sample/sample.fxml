@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="514.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LogIn">
+   <top>
+      <AnchorPane prefHeight="398.0" prefWidth="568.0" style="-fx-background-color: #2C0058;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="616.0" layoutX="48.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/stars-purple-cosmos-hd-wallpaper-preview.jpg" />
+               </image></ImageView>
+            <Label layoutX="153.0" layoutY="169.0" text="Username" textFill="#9c00a8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="225.0" text="Password" textFill="#9c00a8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="280.0" layoutY="171.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="280.0" layoutY="227.0" promptText="Password" />
+            <Button fx:id="button" layoutX="227.0" layoutY="311.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="33.0" prefWidth="74.0" style="-fx-background-color: #560874;" text="Log In" textFill="#fafafa">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Label fx:id="wrongLogIn" layoutX="153.0" layoutY="127.0" textFill="RED" />
+            <Pane layoutX="451.0" layoutY="29.0" prefHeight="282.0" prefWidth="235.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Untitled%20design%20(2).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
